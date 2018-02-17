@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+ 	padding: 0; 
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: #121E27;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html {
+  line-height: normal;
+}
+
+i[class*="ico-"] {
+  display: inline-block;
+  vertical-align: middle;
+  background: url("../images/sprite.png");
+}
+
+i.ico-time {
+  width: 15px;
+  height: 15px;
+  background-position: 0 0;
+}
+
+a {
+  cursor: pointer;
+  color: $colorLink;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container {
+  max-width: 73.125em;
+  min-width: 15.000em;
+  margin: 0 auto;
+}
+
+body {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.content {
+  display: table-row;
+  height: 100%;
+}

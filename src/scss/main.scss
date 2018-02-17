@@ -1,0 +1,24 @@
+@import "normalize";
+@import "var";
+@import "common";
+@import "grid";
+
+.footer{
+	background: $footerBg;
+}
+
+.header{
+	background: pink;
+}
+
+.left-sidebar{
+	@include grid(3);
+}
+
+#main{
+	@include grid(6);
+}
+
+.right-sidebar{
+	@include grid(3);	
+}

@@ -1,0 +1,31 @@
+@mixin grid($col) {
+    padding: 0 15px;
+    float: left;
+    
+    @if $col == 1 {
+      width: 8.33333333333%;
+    } @else if $col == 2{
+      width: 16.6666666667%;
+    }@else if $col == 3{
+      width: 25%;
+    }@else if $col == 4{
+      width: 33.3333333333%;
+    }@else if $col == 5{
+      width: 41.6666666667%;
+    }@else if $col == 6{
+      width: 50%;
+    }@else if $col == 7{
+      width: 58.3333333333%;
+    }@else if $col == 8{
+      width: 66.6666666666%;
+    }@else if $col == 9{
+      width: 75%;
+    }@else if $col == 10{
+      width: 83.3333333333%;
+    }@else if $col == 11{
+      width: 91.6666666666%;
+    } @else if $col == 12 {
+      width: 100%;
+    }
+  
+  }
